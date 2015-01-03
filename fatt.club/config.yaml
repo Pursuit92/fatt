@@ -1,0 +1,57 @@
+---
+
+baseurl:            http://fatt.club
+pygmentsuseclasses: true 
+languageCode: en-us
+title: "Frankfort Area Table Tennis"
+
+params:
+  inc:
+    # Blog Information
+    title:        "Frankfort Area Table Tennis"
+    subtitle:     "www.fatt.club"
+    cover_image:  blog-cover.jpg
+    logo:         logo.png
+    
+    # Company information
+    company:      "Frankfort Area Table Tennis"
+    url:          http://fatt.club/
+    #    facebook:     
+    #github:       Pursuit92
+    #twitter:      Pursuit92
+#    gplus:        ''
+    about_link:   /about
+    membership_link:   /membership
+    rules_link:   /rules
+    contact_link:   /contact
+    
+    # Product Information
+    #product_link: http://nilproductions.com/
+    #tagline:      "Coming up nil for quite some time."
+    
+    # Comments
+    disqus:
+      # Eg. "exampleblog" Set to false to disable comments
+      #shortname:  "jecpw"
+      shortname:  false
+    
+    # Sharing settings
+    sharing:
+      twitter:    true
+      facebook:   true
+      gplus:      false
+      hn:         false
+      
+    
+   # Analytics     
+    analytics:
+      google: false # Add tracking code in _includes/_google-analytics.html
+#      piwik:
+#        domain: piwik.nilproductions.com
+#        siteid: 1  
+        
+    # Google Fonts
+    # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
+    google_font: 'Droid+Sans:400,700'
+    
+    # Setup your fonts, colors etc at _assets/stylesheets/main.scss

@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+{{ partial "article-cover.html" . }}
+
+<article>
+    <div class="container">
+        <header>
+			{{ partial "article-meta.html" . }}
+        </header>
+
+        <section>
+            {{ .Content }}
+            {{ partial "_social.html" . }}
+        </section>
+
+        <footer>
+			{{ partial "authorinfo.html" . }}
+
+        </footer>
+
+        {{ with .Site.Params.inc.disqus.shortname }}
+        <section>
+            {{ partial "_disqus.html" . }}
+        </section>
+        {{ end }}
+    </div>
+</article>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,11 @@
+{{ $base := .Site.BaseUrl }}
+{{ with .Site.Params.inc.cover_image }}
+<div class="blog-cover" style="background-image:url({{ $base }}/images/{{ . }});">
+{{ end }}
+	<section>
+		<div class="container">
+            <h1 class="title">{{ .Title }}</h1>
+		</div>
+	</section>
+</div>
+

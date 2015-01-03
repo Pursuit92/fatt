@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+{{ partial "index-cover.html" . }}
+
+<article class="container">
+  {{ range .Data.Pages }}
+    {{ .Render "archive" }}
+  {{ end }}
+</article>
+{{ partial "footer.html" . }}

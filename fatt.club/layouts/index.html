@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+
+{{ partial "blog-cover.html" . }}
+
+<article class="container">
+  {{ range first 10 .Data.Pages }}
+    {{ .Render "summary" }}
+  {{ end }}
+<section class="pagination" style="text-align:center">
+	<a href="{{ .Site.BaseUrl }}/post/" class="btn btn-outline">Archives</a>
+</section>
+</article>
+
+
+{{ partial "footer.html" . }}

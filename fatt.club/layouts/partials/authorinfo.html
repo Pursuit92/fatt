@@ -1,0 +1,8 @@
+
+            <address>
+				{{ $base := .Site.BaseUrl }}
+				{{ with .Params.authorimage }}<img src="{{ $base }}/images/{{ . }}">{{ end }}
+                <p>Written by <strong><a rel="author" href="https://twitter.com/{{ .Params.authortwitter }}" title="{{ .Params.authorname }}" target="_blank">{{ .Params.authorname }}</a></strong><br>
+                <span class="muted">{{ .Params.authorbio }}</span>
+                </p>
+            </address>
