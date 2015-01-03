@@ -1,3 +1,3 @@
 #!/bin/bash
 
-hugo 2>&1 | xmessage -file -
+./hugo 2>&1 | xmessage -file -

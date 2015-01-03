@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gnome-terminal -e hugo server -w
+gnome-terminal -e ./hugo server -w
